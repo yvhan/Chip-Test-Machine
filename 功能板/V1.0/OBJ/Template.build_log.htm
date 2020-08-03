@@ -1,0 +1,216 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: dg lyh, Microsoft, LIC=EXJT4-FDQCY-12ELE-56UWA-JRC7T-NUX39
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.23
+Toolchain Path:  f:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+E:\Desktop\解决晶圆边缘报bin6-7\功能板\V1.0\USER\ICAPTURE.uvprojx
+Project File Date:  05/20/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'f:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'ICAPTURE'
+compiling main.c...
+main.c(85): warning:  #223-D: function "SetBin" declared implicitly
+                                SetBin(1);
+main.c(166): warning:  #223-D: function "SetBin" declared implicitly
+      SetBin(6);
+main.c(199): warning:  #223-D: function "SetBin" declared implicitly
+                        SetBin(5);
+main.c(206): warning:  #223-D: function "PCInit_DeTIM8" declared implicitly
+        PCInit_DeTIM8();//初始化为普通IO口
+main.c(239): warning:  #223-D: function "SetBin" declared implicitly
+                        SetBin(7);
+main.c(282): warning:  #223-D: function "SetBin" declared implicitly
+                SetBin(4);
+main.c(351): warning:  #223-D: function "PCInit_DeTIM8" declared implicitly
+        PCInit_DeTIM8();//初始化为普通IO口
+main.c(335): warning:  #177-D: variable "i"  was declared but never referenced
+        int i;
+main.c: 8 warnings, 0 errors
+compiling stm32h7xx_it.c...
+compiling system_stm32h7xx.c...
+compiling stm32h7xx_hal_msp.c...
+compiling PeriodCheck.c...
+PeriodCheck.c(35): warning:  #940-D: missing return statement at end of non-void function "TIM1_CH1_PeriodCheck" 
+  }
+PeriodCheck.c(57): warning:  #940-D: missing return statement at end of non-void function "TIM1_CH2_PeriodCheck" 
+  }
+PeriodCheck.c(79): warning:  #940-D: missing return statement at end of non-void function "TIM1_CH3_PeriodCheck" 
+  }
+PeriodCheck.c(101): warning:  #940-D: missing return statement at end of non-void function "TIM1_CH4_PeriodCheck" 
+  }
+PeriodCheck.c(119): warning:  #223-D: function "delay_ms" declared implicitly
+                delay_ms(1);
+PeriodCheck.c(123): warning:  #940-D: missing return statement at end of non-void function "TIM8_CH1_PeriodCheck" 
+  }
+PeriodCheck.c(142): warning:  #223-D: function "delay_ms" declared implicitly
+                delay_ms(1);
+PeriodCheck.c(146): warning:  #940-D: missing return statement at end of non-void function "TIM8_CH2_PeriodCheck" 
+  }
+PeriodCheck.c(165): warning:  #223-D: function "delay_ms" declared implicitly
+                delay_ms(1);
+PeriodCheck.c(169): warning:  #940-D: missing return statement at end of non-void function "TIM8_CH3_PeriodCheck" 
+  }
+PeriodCheck.c(188): warning:  #223-D: function "delay_ms" declared implicitly
+                delay_ms(1);
+PeriodCheck.c(192): warning:  #940-D: missing return statement at end of non-void function "TIM8_CH4_PeriodCheck" 
+  }
+PeriodCheck.c: 12 warnings, 0 errors
+compiling Pmu_Dps_FM_VI.c...
+Pmu_Dps_FM_VI.c(34): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  else if(pi==0.25)
+Pmu_Dps_FM_VI.c(38): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  else if(pi==0.5)
+Pmu_Dps_FM_VI.c(42): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  else if(pi==0.75)
+Pmu_Dps_FM_VI.c(55): warning:  #223-D: function "delay_ms" declared implicitly
+  delay_ms(2);
+Pmu_Dps_FM_VI.c(90): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        else if(pi==0.25)
+Pmu_Dps_FM_VI.c(94): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        else if(pi==0.5)
+Pmu_Dps_FM_VI.c(98): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        else if(pi==0.75)
+Pmu_Dps_FM_VI.c(250): warning:  #223-D: function "delay_ms" declared implicitly
+        delay_ms(dt);
+Pmu_Dps_FM_VI.c(258): warning:  #223-D: function "SetBin" declared implicitly
+                SetBin(bin);
+Pmu_Dps_FM_VI.c(247): warning:  #177-D: variable "i"  was declared but never referenced
+        int i;
+Pmu_Dps_FM_VI.c(292): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  else if(pv==0.25)
+Pmu_Dps_FM_VI.c(296): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  else if(pv==0.5)
+Pmu_Dps_FM_VI.c(300): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  else if(pv==0.75)
+Pmu_Dps_FM_VI.c(314): warning:  #223-D: function "delay_ms" declared implicitly
+  delay_ms(2);
+Pmu_Dps_FM_VI.c(338): warning:  #223-D: function "delay_ms" declared implicitly
+        delay_ms(dt);
+Pmu_Dps_FM_VI.c(346): warning:  #223-D: function "SetBin" declared implicitly
+                SetBin(bin);
+Pmu_Dps_FM_VI.c(376): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        else if(pi==0.25)
+Pmu_Dps_FM_VI.c(382): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        else if(pi==0.5)
+Pmu_Dps_FM_VI.c(388): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        else if(pi==0.75)
+Pmu_Dps_FM_VI.c(423): warning:  #223-D: function "delay_ms" declared implicitly
+        delay_ms(5);
+Pmu_Dps_FM_VI.c(462): warning:  #223-D: function "delay_ms" declared implicitly
+        delay_ms(5);
+Pmu_Dps_FM_VI.c(467): warning:  #223-D: function "SetBin" declared implicitly
+                SetBin(bin);
+Pmu_Dps_FM_VI.c(481): warning:  #223-D: function "delay_ms" declared implicitly
+                delay_ms(1);
+Pmu_Dps_FM_VI.c: 23 warnings, 0 errors
+assembling startup_stm32h743xx.s...
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+..\SYSTEM\usart\usart.c(302): warning:  #940-D: missing return statement at end of non-void function "Float2Byte" 
+  }
+..\SYSTEM\usart\usart.c: 1 warning, 0 errors
+compiling stm32h7xx_hal.c...
+compiling stm32h7xx_hal_cortex.c...
+compiling stm32h7xx_hal_dma.c...
+compiling stm32h7xx_hal_dma_ex.c...
+compiling stm32h7xx_hal_gpio.c...
+compiling stm32h7xx_hal_mdma.c...
+compiling stm32h7xx_hal_pwr.c...
+compiling stm32h7xx_hal_pwr_ex.c...
+compiling stm32h7xx_hal_rcc.c...
+compiling stm32h7xx_hal_rcc_ex.c...
+compiling stm32h7xx_hal_uart.c...
+compiling stm32h7xx_hal_uart_ex.c...
+compiling stm32h7xx_hal_usart.c...
+compiling stm32h7xx_hal_tim.c...
+compiling stm32h7xx_hal_tim_ex.c...
+compiling stm32h7xx_hal_adc.c...
+compiling stm32h7xx_hal_adc_ex.c...
+compiling stm32h7xx_hal_dac.c...
+compiling stm32h7xx_hal_dac_ex.c...
+compiling stm32h7xx_hal_iwdg.c...
+compiling timer.c...
+..\HARDWARE\TIMER\timer.c(566): warning:  #223-D: function "PCInit_DeTIM8" declared implicitly
+                                PCInit_DeTIM8();//初始化为普通IO口
+..\HARDWARE\TIMER\timer.c(894): warning:  #223-D: function "PCInit_DeTIM8" declared implicitly
+        PCInit_DeTIM8();//初始化为普通IO口
+..\HARDWARE\TIMER\timer.c: 2 warnings, 0 errors
+compiling adc.c...
+compiling dac.c...
+compiling gpio.c...
+..\HARDWARE\GPIO\gpio.c(141): warning:  #223-D: function "Pmu_FV" declared implicitly
+                Pmu_FV(0,0,5000);
+..\HARDWARE\GPIO\gpio.c(143): warning:  #223-D: function "Dps_FV" declared implicitly
+                Dps_FV(0,0,50000);
+..\HARDWARE\GPIO\gpio.c(145): warning:  #223-D: function "SetDpsR" declared implicitly
+                SetDpsR(OFF);//关DPS
+..\HARDWARE\GPIO\gpio.c: 3 warnings, 0 errors
+compiling data.c...
+..\HARDWARE\IODATA\data.c(18): warning:  #223-D: function "SetDutR" declared implicitly
+                SetDutR(0x01,ON);//开CH1 
+..\HARDWARE\IODATA\data.c(19): warning:  #223-D: function "Direct_MCUtoCH" declared implicitly
+                Direct_MCUtoCH(1,1);//低:CHtoMCU 高：MCUtoCH CH1设置为MCUtoCH
+..\HARDWARE\IODATA\data.c(25): warning:  #223-D: function "SetDutR" declared implicitly
+                SetDutR(0x02,ON);//开CH2
+..\HARDWARE\IODATA\data.c(26): warning:  #223-D: function "Direct_MCUtoCH" declared implicitly
+                Direct_MCUtoCH(2,1);//低:CHtoMCU 高：MCUtoCH CH1设置为MCUtoCH
+..\HARDWARE\IODATA\data.c(32): warning:  #223-D: function "SetDutR" declared implicitly
+                SetDutR(0x04,ON);//开CH3
+..\HARDWARE\IODATA\data.c(33): warning:  #223-D: function "Direct_MCUtoCH" declared implicitly
+                Direct_MCUtoCH(3,1);//低:CHtoMCU 高：MCUtoCH CH1设置为MCUtoCH
+..\HARDWARE\IODATA\data.c(39): warning:  #223-D: function "SetDutR" declared implicitly
+                SetDutR(0x08,ON);//开CH4
+..\HARDWARE\IODATA\data.c(40): warning:  #223-D: function "Direct_MCUtoCH" declared implicitly
+                Direct_MCUtoCH(4,1);//低:CHtoMCU 高：MCUtoCH CH1设置为MCUtoCH
+..\HARDWARE\IODATA\data.c(46): warning:  #223-D: function "SetDutR" declared implicitly
+                SetDutR(0x10,ON);//开CH5
+..\HARDWARE\IODATA\data.c(47): warning:  #223-D: function "Direct_MCUtoCH" declared implicitly
+                Direct_MCUtoCH(5,1);//低:CHtoMCU 高：MCUtoCH CH1设置为MCUtoCH
+..\HARDWARE\IODATA\data.c(53): warning:  #223-D: function "SetDutR" declared implicitly
+                SetDutR(0x20,ON);//开CH6
+..\HARDWARE\IODATA\data.c(54): warning:  #223-D: function "Direct_MCUtoCH" declared implicitly
+                Direct_MCUtoCH(6,1);//低:CHtoMCU 高：MCUtoCH CH1设置为MCUtoCH
+..\HARDWARE\IODATA\data.c(60): warning:  #223-D: function "SetDutR" declared implicitly
+                SetDutR(0x40,ON);//开CH7
+..\HARDWARE\IODATA\data.c(61): warning:  #223-D: function "Direct_MCUtoCH" declared implicitly
+                Direct_MCUtoCH(7,1);//低:CHtoMCU 高：MCUtoCH CH1设置为MCUtoCH
+..\HARDWARE\IODATA\data.c(67): warning:  #223-D: function "SetDutR" declared implicitly
+                SetDutR(0x80,ON);//开CH8
+..\HARDWARE\IODATA\data.c(68): warning:  #223-D: function "Direct_MCUtoCH" declared implicitly
+                Direct_MCUtoCH(8,1);//低:CHtoMCU 高：MCUtoCH CH1设置为MCUtoCH
+..\HARDWARE\IODATA\data.c: 16 warnings, 0 errors
+compiling iwdg.c...
+linking...
+Program Size: Code=39970 RO-data=810 RW-data=220 ZI-data=2700  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 65 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_ICAPTURE
+  f:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.3.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:05:45
+</pre>
+</body>
+</html>
